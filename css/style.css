@@ -1,0 +1,364 @@
+html, body { height: 100%; width: 100%; margin: 0; }
+
+body {
+  /*background-color: #5bcadd;*/
+  /*background-color: #2b3350;*/
+  background-color: #f2f6fa;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin:0;
+    /*margin: 1em 0;*/
+    padding: 0;
+}
+
+.logo {
+   height: 75px;
+   width: 120px;
+}
+
+.logo-small {
+  padding-top: 5px;
+  margin-bottom: -8px;
+  height: 30px;
+  width: 43px;
+}
+
+.headload {
+  height: 120px;
+  text-align: center;
+  color:#fff;
+  font-weight: 200;
+  margin: 80px 0 30px 0; 
+}
+
+.setup-1{
+  background-image: url("../img/collect.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#indicateCourseInprogress{
+  background-image: url("../img/inprogress-edit.jpg");
+  background-size: 100%;
+  border:5px solid #fff;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+#indicateCourseComplete{
+  background-image: url("../img/completed.jpg");
+  background-size: 100%;
+  border:5px solid #fff;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+#indicateCourseDefault{
+  background-image: url("../img/notTaken.jpg");
+  background-size: 100%;
+  border:5px solid #fff;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+
+
+.header {
+  min-height:355px;
+  /*background-color: #00838f;*/
+  background-image: url("../img/flatBack1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.header2{
+  height: 200px;
+}
+
+#summaryHeader{
+  background-image: url("../img/flatback3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/*#cloudHeader{
+  background-image: url("../img/cloud.png");
+  background-repeat: no-repeat;
+  background-size: 70%;
+}*/
+
+.header-content{
+  border-top:1px solid #eeeeee;
+}
+.slide-contents{
+  min-height: 220px;
+  margin-bottom: 36px;
+}
+.header-content ul {
+  margin-top: -20px;
+}
+
+.homebuttons {
+  position: relative;
+  margin-top: 60px;
+
+}
+.homebuttons a{
+  color:#fff;
+}
+
+.home-accordion {
+  background-color: #ee6e73;
+  color: #fff;
+  font-size: .85em;
+  border-width: 0.01em;
+  border-color: #bfbfbf;
+  height: 50px;
+  font-weight: 300;
+
+}
+.home-accordion-inprogress{
+  background-color: #81c784;
+  color: #fff;
+  font-size: .85em;
+  border-width: 0.01em;
+  border-color: #bfbfbf;
+  height: 50px;
+  font-weight: 300;
+}
+.home-accordion-completed{
+  background-color: #90a4ae;
+  color: #fff;
+  font-size: .85em;
+  border-width: 0.01em;
+  border-color: #bfbfbf;
+  height: 50px;
+  font-weight: 300;
+}
+
+.textDescript{
+  color: #000;
+  font-size: .85em;
+  font-weight: 200;
+}
+
+.tophead{
+  color: #212121;
+  text-align: center;
+  font-size: 1.7em;
+  margin: 10px 0 20px 0;
+}
+.midhead{
+  color: #212121;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 100;
+  margin:10px 0 0 0;
+  z-index: 999;
+
+}
+
+
+.side-header {
+  height: 230px;
+  width: 100%;
+  background-color: #424242;
+}
+.side-nav li{
+  border-width: 0.01em;
+  border-color:  #d9d9d9;
+  color: black;
+  text-align: left;
+}
+.profi {
+  border:20px solid #333333;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  margin-top: 65px;
+}
+.profi2 {
+  border:5px solid #fff;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+
+.todays {
+  text-align: center;
+  color: white;
+  margin-top: 20%;
+  margin-bottom: 15%;
+  font-size: 2.7em;
+
+
+}
+
+.program {
+  height: 130px;
+  width: 130px;
+  border: 10px solid #ef9a9a;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #e57373;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.days {
+  text-align: center;
+  margin: 7px 0 7px 0;
+  /*border: 0.1em solid #d9d9d9;*/
+  float: left;
+}
+.select-button {
+  margin: 10px 0 15px 0;
+}
+
+.card {
+  height: 150px;
+   border-radius: 5px;
+}
+.cardholder{
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2.5em;
+  line-height: 90%;
+
+}
+
+.excessAccordion {
+  margin:0px;
+}
+
+.check {
+  float: left;
+  margin-top: 15px;
+
+}
+
+.check label {
+  color:#fff;
+  padding-right: 0px;
+}
+
+.fcolor{
+  color:#00897b;
+}
+
+/*
+.sample-color {
+  background-color: #3d4a6d;
+  color:#fff;
+  font-size: .8em;
+} */
+
+#toast-container{
+  top: auto !important;
+  right: auto !important;
+  bottom: -6%;
+  left:0%;
+}
+
+.bottomBtn {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left:0%;
+  height: 55px;
+  color: #757575;
+  background-color: #263238;
+}
+.bottomBtn a {
+    padding-top: 5px;
+    color: #757575;
+}
+.myCheckbox {
+  float: left;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.myCheckbox label {
+  color:#fff;
+}
+
+#setupRequest{
+  z-index:999;
+}
+
+.myCellPadding{
+  padding:10px;
+}
+
+.btn-small {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 0.5rem;
+}
+
+#availablePrograms{
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.programList{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Progress Bar CSS*/
+
+.circular-progress-bar {
+    position: relative;
+    margin: 0 auto;
+}
+
+.progress-percentage, .progress-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0px 60px;
+}
+
+.progress-percentage {
+  font-size: 30px;
+    transform: translate(-50%, -85%);
+}
+
+.progress-text {
+    transform: translate(-50%, 0%);
+    color: #585858;
+    font-size: 21px;
+}
+.my-progress-bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.progress-percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.dropdown-content1{
+      background-color: #ef9a9a
+}
